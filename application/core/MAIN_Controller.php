@@ -26,6 +26,6 @@ class MAIN_Controller extends CI_Controller {
 	protected function view_back($view, $data = null)
 	{		
 		$data['content'] = $this->load->view($view,$data,true);
-		$this->load->view('layouts/front',$data);
+		$this->load->view('layouts/back',$data);
 	}
 }

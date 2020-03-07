@@ -7,7 +7,15 @@
 
   <title><?php echo $title; ?></title>
 
+  <script src="<?php echo base_url();?>assets/lib/jquery/js/jquery.min.js"></script>
+
+    <link href="<?php echo base_url();?>assets/css/style.css" rel="stylesheet" type="text/css">
+
   <link href="<?php echo base_url();?>assets/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
 
 
   <script type="text/javascript">
@@ -27,9 +35,11 @@
 	<?php echo $footer; ?>
 
 
-<script src="<?php echo base_url();?>assets/lib/bootstrap/js/jquery.min.js"></script>
+ <!--  <script src="<?php //echo base_url();?>assets/lib/jquery/js/jquery.min.js"></script> -->
 
-<script src="<?php echo base_url();?>assets/lib/bootstrap/js/bootstrap.min.js"></script>
+ <script src="<?php echo base_url();?>assets/lib/bootstrap/js/bootstrap.min.js"></script>
+
+ <script src="<?php echo base_url();?>assets/js/map.js"></script>
 
 </body>
 
