@@ -23,18 +23,6 @@
 <body>
 
 
-
-
- <footer class="bg-dark">
-
-  <div class="text-center">
-    <br>
-    <span class="text-white">Copyright &copy; Jonathan Castro</span>
-  </div>
-  <br>
-
-</footer>
-
 <script src="<?php echo base_url();?>assets/js/jquery.js"></script>
 
 <script src="<?php echo base_url();?>assets/js/bootstrap.js"></script>

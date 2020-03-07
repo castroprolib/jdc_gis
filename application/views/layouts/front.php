@@ -7,7 +7,7 @@
 
   <title>template</title>
 
-  <link href="<?php echo base_url();?>assets/css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="<?php echo base_url();?>assets/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
 
 
   <script type="text/javascript">
@@ -23,21 +23,9 @@
 <body>
 
 
+<script src="<?php echo base_url();?>assets/lib/bootstrap/js/jquery.min.js"></script>
 
-
- <footer class="bg-dark">
-
-  <div class="text-center">
-    <br>
-    <span class="text-white">Copyright &copy; Jonathan Castro</span>
-  </div>
-  <br>
-
-</footer>
-
-<script src="<?php echo base_url();?>assets/js/jquery.js"></script>
-
-<script src="<?php echo base_url();?>assets/js/bootstrap.js"></script>
+<script src="<?php echo base_url();?>assets/lib/bootstrap/js/bootstrap.min.js"></script>
 
 </body>
 
