@@ -23,6 +23,7 @@
 <body>
 
 	<h1>vista front</h1>
+	<?php echo $content; ?>
 
 
 <script src="<?php echo base_url();?>assets/lib/bootstrap/js/jquery.min.js"></script>

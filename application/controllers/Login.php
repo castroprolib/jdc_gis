@@ -8,10 +8,13 @@ class Login extends MAIN_Controller {
 		// $this->test();
 		// $data = $this->load->view('login');
 
-		// $data = $this->load->view('login', '', TRUE);
+		// $data = $this->load->view('login', '', true);
 
 		// echo gettype($data);
 
-		$this->view_front();
+		// $data = array();
+		// $data = $this->load->view('login');
+
+		$this->view_front('login');
 	}
 }
