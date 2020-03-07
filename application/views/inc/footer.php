@@ -2,7 +2,7 @@
 
   <div class="text-center">
     <br>
-    <span class="text-white">Copyright &copy; Jonathan Castro</span>
+    <span class="text-white">Copyright &copy; Jonathan Castro <?php echo date('d-m-y') ?></span>
   </div>
   <br>
 
