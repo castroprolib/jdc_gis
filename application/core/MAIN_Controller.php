@@ -6,10 +6,10 @@ class MAIN_Controller extends CI_Controller {
 	// solo las clases que heredan de esta pueden usar esta propiedad
 	protected $title;
 	
-	protected function test()
-	{
-		echo "main";
-	}
+	// protected function test()
+	// {
+	// 	echo "main";
+	// }
 
 
 	protected function view_front($view, $data = null)
@@ -21,7 +21,11 @@ class MAIN_Controller extends CI_Controller {
 		*/
 		$data['content'] = $this->load->view($view,$data,true);
 		$this->load->view('layouts/front',$data);
+	}
 
-
+	protected function view_back($view, $data = null)
+	{		
+		$data['content'] = $this->load->view($view,$data,true);
+		$this->load->view('layouts/front',$data);
 	}
 }

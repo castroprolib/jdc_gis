@@ -5,9 +5,9 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">  
 
-  <title>template</title>
+  <title><?php echo $title; ?></title>
 
-  <link href="<?php echo base_url();?>assets/css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="<?php echo base_url();?>assets/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
 
 
   <script type="text/javascript">
@@ -22,10 +22,14 @@
 
 <body>
 
+	<?php echo $navbar; ?>
+	<?php echo $content; ?>
+	<?php echo $footer; ?>
 
-<script src="<?php echo base_url();?>assets/js/jquery.js"></script>
 
-<script src="<?php echo base_url();?>assets/js/bootstrap.js"></script>
+<script src="<?php echo base_url();?>assets/lib/bootstrap/js/jquery.min.js"></script>
+
+<script src="<?php echo base_url();?>assets/lib/bootstrap/js/bootstrap.min.js"></script>
 
 </body>
 
