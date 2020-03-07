@@ -7,4 +7,13 @@ class MAIN_Controller extends CI_Controller {
 	{
 		echo "main";
 	}
+
+
+	public function view_front()
+	{
+
+		$this->load->view('layouts/front');
+
+
+	}
 }

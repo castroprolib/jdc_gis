@@ -5,7 +5,13 @@ class Login extends MAIN_Controller {
 	
 	public function index()
 	{
-		$this->test();
-		$this->load->view('login');
+		// $this->test();
+		// $data = $this->load->view('login');
+
+		// $data = $this->load->view('login', '', TRUE);
+
+		// echo gettype($data);
+
+		$this->view_front();
 	}
 }
