@@ -14,6 +14,14 @@ state char not null unique,
 country_id integer not null unique
 );
 
+-- eliminando columna
+alter table states
+drop column country_id;
+
+-- agregando columna
+alter table states
+add column country_id serial;
+
 -- tabla roles
 create table roles(
 role_id serial primary key not null,
