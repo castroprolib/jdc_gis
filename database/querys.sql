@@ -22,6 +22,10 @@ drop column country_id;
 alter table states
 add column country_id serial;
 
+-- modificando tipo de dato
+alter table states
+alter column state set data type varchar(50);
+
 -- tabla roles
 create table roles(
 role_id serial primary key not null,
@@ -83,4 +87,27 @@ values('Argentina'),
 ('República Dominicana'),
 ('Uruguay'),
 ('Venezuela');
+
+-- insertando los estados
+insert into states(state)
+values('Buenos Aires'),
+('Sucre'),
+('Brasilia'),
+('Santiago de Chile'),
+('Bogotá'),
+('San José'),
+('La Habana'),
+('Quito'),
+('San Salvador'),
+('Ciudad de Guatemala'),
+('Puerto Príncipe'),
+('Tegucigalpa'),
+('Ciudad de México'),
+('Managua'),
+('Panamá'),
+('Asunción'),
+('Lima'),
+('Santo Domingo'),
+('Montevideo'),
+('Caracas');
 
