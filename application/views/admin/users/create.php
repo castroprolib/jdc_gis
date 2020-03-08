@@ -29,6 +29,11 @@
 			<input type="text" class="form-control" name="password" placeholder="password">
 			<br>
 
+			<select name="country" id="country">
+				<!-- <option value=""></option>
+				option -->
+			</select>
+
 
 			<button type="submit" class="btn btn-info">Enviar</button>
 
