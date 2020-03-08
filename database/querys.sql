@@ -44,4 +44,13 @@ updated_at date,
 last_access date
 );
 
+-- version de postgres instalada
+select version();
+
+-- crear extension de postgis, para volver una base de datos espacial
+CREATE EXTENSION postgis;
+
+-- verificar la version de postgis instalada
+select postgis_full_version();
+
 
