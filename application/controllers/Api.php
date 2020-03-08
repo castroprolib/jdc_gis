@@ -13,7 +13,7 @@ class Api extends MAIN_Controller {
 	public function countrys()
 	{
 
-		$data = $this->Api_Model->getCountrys();
+		$data = $this->Country_Model->getCountrys();
 
 		// echo json_encode($data);
 
