@@ -20,4 +20,28 @@ role_id serial primary key not null,
 role boolean not null
 );
 
+-- tabla coordenadas
+create table coord(
+coord_id serial primary key not null,
+lat point not null,
+long point not null,
+country_id integer not null,
+state_id integer not null
+);
+
+-- tabla users
+create table users(
+user_id serial primary key not null,
+first_name varchar(50) not null,
+last_name varchar(50) not null,
+email varchar(50) not null,
+password varchar(100) not null,
+role_id integer not null,
+country_id integer not null,
+state_id integer not null,
+created_at date,
+updated_at date,
+last_access date
+);
+
 
