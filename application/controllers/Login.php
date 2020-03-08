@@ -22,7 +22,7 @@ class Login extends MAIN_Controller {
 		// $data = array();
 		// $data = $this->load->view('login');
 
-		$data['title'] = $this->title = 'login';
+		$data['title'] = $this->title = 'home';
 		$data['navbar'] = $this->load->view('inc/navbar','',true);
 		// segundo parametro como vacio que que no cargue la vista
 		$data['footer'] = $this->load->view('inc/footer','',true);
