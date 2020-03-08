@@ -53,4 +53,26 @@ CREATE EXTENSION postgis;
 -- verificar la version de postgis instalada
 select postgis_full_version();
 
+-- agregando countrys
+insert into countrys(country)
+values('Argentina'),
+('Bolivia'),
+('Brasil'),
+('Chile'),
+('Colombia'),
+('Costa Rica'),
+('Cuba'),
+('Ecuador'),
+('El Salvador'),
+('Guatemala'),
+('Haití'),
+('Honduras'),
+('México'),
+('Nicaragua'),
+('Panamá'),
+('Paraguay'),
+('Perú'),
+('República Dominicana'),
+('Uruguay'),
+('Venezuela');
 
